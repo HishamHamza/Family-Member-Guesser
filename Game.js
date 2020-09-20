@@ -216,7 +216,17 @@ const textNodes = [
   },
   {
     id: 20,
-    text: 'Your name is SHYNY!'
+    text: 'Is your eldest child a boy?'
+    options: [
+        {
+            text: 'Yes',
+            nextText: 26
+        },
+        {
+            text: 'No',
+            nextText: 27
+        }
+    ]
   },
   {
     id: 21,
@@ -269,6 +279,14 @@ const textNodes = [
   {
     id: 7,
     text: 'Your name is JEHAN!'
+  }
+  {
+    id:26,
+    text: 'Your name is ZUHARA!'
+  },
+  {
+    id:27,
+    text:'Your name is SHYNY!'
   }
 ]
 startGame()
