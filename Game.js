@@ -176,7 +176,7 @@ const textNodes = [
   },
   {
     id: 11,
-    text: 'Do you have a sister?',
+    text: 'Are you the eldest among your siblings?',
     options:[
         {
             text:'Yes',
