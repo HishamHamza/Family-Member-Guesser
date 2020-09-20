@@ -267,7 +267,7 @@ const textNodes = [
   {
     id:23,
     text: 'Your name is NASIF!'
-  },
+  }, 
   {
     id:24,
     text: 'Your name is HISHAM!'
