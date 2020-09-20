@@ -67,6 +67,7 @@ const textNodes = [
         },
         {
             text: 'School Student',
+            requiredState: (currentState) => currentState.male,
             setState: { male: true, schoolboy:true },
             nextText: 3
         },
